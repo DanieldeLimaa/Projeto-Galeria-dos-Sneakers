@@ -1,0 +1,33 @@
+O que é CSS?
+
+    °| CSS é uma linguagem de estilização
+    °| Um acrônimo para Cascading Style Sheets
+    °| Frequentemente utilizada junto com HTML
+    °| Podemos posicionar elementos, criar animações, e reproduzir um layout na web
+    °| Pode ser executada diretamente no navegador, não precisa de setup
+
+Sintaxe do CSS 
+    °| Para estilizar elementos vamos smepre seguir alguns passos
+    °| Escolher tag (por meio do nome, classe ou id)
+    °| Abrir e fechar chaves, delimitando o espaço dos estilos do elementos
+    °| Escrever as regras de estilização
+    °| Todas devem terminar com um ponto e vírgula (;)
+    °| Ex:
+        div{
+            background-color: red;
+        }
+
+Formas de adicionar CSS
+    °| Temos três formas muito utilizadas para inserir CSS em uma página
+    °| Inline: onde o CSS fica na tag
+    °| Internal CSS: onde o CSS fica no head da página
+    °| External CSS: onde o CSS fica em um arquivo externo
+    °| Esta última forma é mais indicada, e devemos sempre tentar utiliza-la
+    °| Vamos vê-las na prática!
+
+Seletores de CSS
+    °| Temos formas além das tags de selecionar elementos
+    °| Por classes: quando queremos afetar mais elementos com uma regra
+    °| Por id: quando queremos afetar um único elementos
+    °| Estas formas são referebtes aos atributos class e id
+    °| Há uma convenção no HTML que não nos permite adicionar mais de um elemento com o mesmo id em uma página
